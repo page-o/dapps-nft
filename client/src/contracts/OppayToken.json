@@ -9221,6 +9221,63 @@
       "address": "0x319b81D7311F7FcA883a62f1aFFCDcD3EefD7ce6",
       "transactionHash": "0x1bab609b9a83dfff0b7b2c83301efea789ad6ae67747e6140ea811f89966aa87"
     },
+    "43113": {
+      "events": {
+        "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "spender",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "value",
+              "type": "uint256"
+            }
+          ],
+          "name": "Approval",
+          "type": "event"
+        },
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "from",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "to",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "value",
+              "type": "uint256"
+            }
+          ],
+          "name": "Transfer",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x7788207EF318C7043F2e07F8253f1A5Ddf21808e",
+      "transactionHash": "0x99f093c79630f5cfccc4cca0ea015a3cb300526f820566c8f8f195dbb738b796"
+    },
     "80001": {
       "events": {},
       "links": {},
@@ -9229,7 +9286,7 @@
     }
   },
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-06-15T04:14:51.154Z",
+  "updatedAt": "2022-06-15T09:00:55.961Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

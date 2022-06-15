@@ -104,8 +104,11 @@ class App extends Component {
 
   onClickTapButton = async () => {
     const { accounts, token, select } = this.state;
+    const start  = Date.now()
     await token.methods.tap(select.tokenLevel).send({ from: accounts[0] });
     const tokenBalance = await token.methods.balanceOf(accounts[0]).call();
+    const finish  = Date.now()
+    console.log(`transaction time: ${Math.floor((finish - start) / 1000)}`)
     this.setState({balance: tokenBalance/(10*10**17)});
   }
 
